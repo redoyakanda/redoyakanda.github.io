@@ -60,7 +60,7 @@
 .main-container .content {
   flex: 1; /* Take up the remaining available space */
   padding: 10px; /* Keep consistent padding inside content */
-  margin-right: -650px !important;
+  margin-right: 0px !important;
   margin-left: 0px !important;
 
   }
@@ -70,7 +70,7 @@
 .main-container .right-sidebar {
   width: 300px; /* Adjust width if necessary */
   margin-left: 0 !important;
-  margin-right: 650px !important;
+  margin-right: 0px !important;
   padding: 15px; /* Optional: Keep padding for a clean look */
   background: transparent; /* Set the background to transparent */
   position: sticky;
