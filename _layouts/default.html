@@ -39,8 +39,8 @@ layout: compress
   /* Right Sidebar - Remove Space */
   .right-sidebar {
     flex: 1;
-    width: 100%;
-    max-width: 100%;
+    width: 150%;
+    max-width: 150%;
     margin: 4%;
     padding: 0;
   }
@@ -59,6 +59,35 @@ layout: compress
     margin: 0% !important;
     padding: -20% !important;
   }
+
+    /* Make Recent News font smaller */
+  .recent-news {
+    font-size: 14px !important; /* Adjust as needed */
+    line-height: 1.4 !important; /* Improve readability */
+  }
+
+  /* Reduce font size for dates (removed gray color) */
+  .news-date {
+    font-size: 12px !important;
+    color: inherit !important; /* Uses the default text color */
+  }
+
+  /* Specific styling for the paper title */
+  .paper-title {
+    font-size: 14px !important; /* Slightly larger for title */
+  }
+
+  /* Remove links from other text */
+  .recent-news a {
+    text-decoration: none !important;
+  }
+  
+  .recent-news {
+  text-align: justify !important;
+}
+
+
+
 </style>
 
 
