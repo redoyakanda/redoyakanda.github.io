@@ -9,6 +9,60 @@ layout: compress
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+<style>
+  /* Ensure full wrapper width */
+  .wrapper {
+    display: flex;
+    width: 100%;
+    max-width: 1300px; /* Expand width */
+    margin: 0 auto;
+  }
+
+  /* Left Sidebar - Remove extra space */
+  .left-sidebar {
+    flex: 1;
+    width: 17.5%;
+    max-width: 17.5%;
+    margin: 0;
+    padding: 2%;
+  }
+
+  /* Main Content - Keep Wide & Remove Extra Padding */
+  .main {
+    flex: 4;
+    width: 90% !important;
+    max-width: 90% !important;
+    margin: 0 !important;
+    padding: 3% !important;
+  }
+
+  /* Right Sidebar - Remove Space */
+  .right-sidebar {
+    flex: 1;
+    width: 100%;
+    max-width: 100%;
+    margin: 4%;
+    padding: 0;
+  }
+
+  /* 🔥 Remove space between sections 🔥 */
+  .left-sidebar + .main,
+  .main + .right-sidebar {
+    margin-left: -15% !important;
+    padding-left: -15% !important;
+  }
+
+  /* Ensure no unwanted padding/margins inside content */
+  .page__content, .page__inner-wrap {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0% !important;
+    padding: -20% !important;
+  }
+</style>
+
+
+
   </head>
 
   <body>
@@ -16,16 +70,52 @@ layout: compress
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
-    <div id="main-container" class="main-container">
-      <!-- Main Content -->
-      <div class="content">
-        {{ content }}
+    <!-- Flexbox Wrapper -->
+    <div class="wrapper">
+
+      <!-- Left Sidebar (Profile Section) -->
+      <div class="left-sidebar">
+        <div class="sidebar sticky">
+          <div itemscope itemtype="http://schema.org/Person">
+            <div class="author__avatar">
+              <img src="http://localhost:4000/images/Akanda_profile.jpg" class="author__avatar" alt="Md Mojibur Rahman Redoy Akanda">
+            </div>
+            <div class="author__content">
+              <h3 class="author__name">Md Mojibur Rahman Redoy Akanda</h3>
+              <p class="author__bio">Ph.D Student, Graduate Assistant- Research, Texas A&amp;M University</p>
+            </div>
+            <div class="author__urls-wrapper">
+              <button class="btn btn--inverse">Follow</button>
+              <ul class="author__urls social-icons">
+                <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right"></i>College Station, Texas</li>
+                <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right"></i>Texas A&amp;M University</li>
+                <li><a href="mailto:redoy.akanda@tamu.edu"><i class="fas fa-fw fa-envelope icon-pad-right"></i>Email</a></li>
+                <li><a href="https://scholar.google.com/citations?user=EBFFXpgAAAAJ"><i class="ai ai-google-scholar icon-pad-right"></i>Google Scholar</a></li>
+                <li><a href="https://orcid.org/0000-0002-2874-316X"><i class="ai ai-orcid ai-fw icon-pad-right"></i>ORCID</a></li>
+                <li><a href="https://www.linkedin.com/in/md-akanda/"><i class="fab fa-fw fa-linkedin icon-pad-right"></i>LinkedIn</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <!-- Right Sidebar (Recent News) -->
+      <!-- Main Content Section (Wider) -->
+      <div class="main">
+        <div id="main" role="main">
+          {{ content }}
+        </div>
+      </div>
+
+      <!-- Right Sidebar (Recent News) - Reduced Width -->
+     <!-- Right Sidebar (Recent News) -->
+      <!-- Right Sidebar (Recent News) - Show ONLY on Homepage -->
+      {% if page.url == "/" %}
       <div class="right-sidebar">
         {% include recent-news.html %}
       </div>
+      {% endif %}
+
+
     </div>
 
     <div class="page__footer">
