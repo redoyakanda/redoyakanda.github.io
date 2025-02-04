@@ -6,31 +6,60 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap">
+    You can also find my articles on 
+    <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.
+  </div>
 {% endif %}
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<!-- Conference Papers Section -->
+<h2 class="archive__subtitle">Conference Papers</h2>
+<div style="font-size: 16px; width: 100%;">
+  
+  <p>
+    [<strong><span style="color:blue">P12</span></strong>] - 
+    <strong><a href="https://www2025.thewebconf.org">
+      Broken Access: On the Challenges of Screen Reader Assisted Two-Factor and Passwordless Authentication
+    </a></strong><br>
+    [Md Mojibur Rahman Redoy Akanda, <strong>Ahmed Tanvir Mahdad</strong>, Nitesh Saxena] <br>
+    The 2025 ACM Web Conference (<strong><a href="https://www2025.thewebconf.org">WWW 2025</a></strong>)
+  </p>
 
+  <p>
+    [<strong><span style="color:blue">P11</span></strong>] - 
+    <strong><a href="https://sp2025.ieee-security.org">
+      BPSniff: Continuously Surveilling Private Blood Pressure Information in the Metaverse via Unrestricted Inbuilt Motion Sensors
+    </a></strong><br>
+    [Zhengkun Ye, <strong>Ahmed Tanvir Mahdad</strong>, Yan Wang, Cong Shi, Yingying Chen, Nitesh Saxena] <br>
+    2025 IEEE Symposium on Security and Privacy (<strong><a href="https://sp2025.ieee-security.org">IEEE S&P 2025</a></strong>)
+  </p>
 
+</div>
 
+<!-- Journal Papers Section -->
+<h2 class="archive__subtitle">Journal Papers</h2>
+<div style="font-size: 16px; width: 100%;">
+
+  <p>
+    [<strong><span style="color:blue">P6</span></strong>] - 
+    <a href="https://dl.acm.org/doi/abs/10.1145/3632175">
+      <strong>Sound-based Two-factor Authentication: Vulnerabilities and Redesign</strong>
+    </a><br>
+    [Prakash Shrestha, <strong>Ahmed Tanvir Mahdad</strong>, and Nitesh Saxena] <br>
+    ACM Transactions on Privacy and Security, Volume 27, Issue 1
+  </p>
+
+  <p>
+    [<strong><span style="color:blue">P5</span></strong>] - 
+    <strong><a href="https://dl.acm.org/doi/abs/10.1145/3576915.3623102">
+      FaceReader: Unobtrusively Mining Vital Signs and Vital Sign Embedded Sensitive Info via AR/VR Motion Sensors
+    </a></strong><br>
+    [Tianfang Zhang, Zhengkun Ye, <strong>Ahmed Tanvir Mahdad</strong>, Md Mojibur Rahman Redoy Akanda, Cong Shi, Yan Wang, Nitesh Saxena, Yingying Chen] <br>
+    2023 ACM SIGSAC Conference on Computer and Communications Security 
+    (<strong><a href="https://www.sigsac.org/ccs/CCS2023/">CCS 2023</a></strong>) 
+    [Acceptance Rate: <strong>19.87%</strong>]
+  </p>
+
+</div>
