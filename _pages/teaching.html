@@ -5,16 +5,31 @@ permalink: /teaching/
 author_profile: true
 ---
 
-{% assign shuffled_teaching = site.teaching | shuffle %}
-{% assign selected_teaching = shuffled_teaching | slice: 0, 3 %}
+<h1>Teaching Experience</h1>
 
-{% for post in selected_teaching %}
-  <article>
-    <h2>{{ post.title }}</h2>
-    <p><strong>Course:</strong> {{ post.course }}</p>
-    <p><strong>Institution:</strong> {{ post.institution }}</p>
-    <p><strong>Term:</strong> {{ post.term }}</p>
-    <p>{{ post.excerpt }}</p>
-  </article>
-  <hr>
-{% endfor %}
+<article>
+  <h2>Course 1 Title</h2>
+  <p><strong>Course:</strong> Course 1 Name</p>
+  <p><strong>Institution:</strong> Institution Name</p>
+  <p><strong>Term:</strong> Term (e.g., Fall 2023)</p>
+  <p>Description of teaching experience 1...</p>
+</article>
+<hr>
+
+<article>
+  <h2>Course 2 Title</h2>
+  <p><strong>Course:</strong> Course 2 Name</p>
+  <p><strong>Institution:</strong> Institution Name</p>
+  <p><strong>Term:</strong> Term (e.g., Spring 2022)</p>
+  <p>Description of teaching experience 2...</p>
+</article>
+<hr>
+
+<article>
+  <h2>Course 3 Title</h2>
+  <p><strong>Course:</strong> Course 3 Name</p>
+  <p><strong>Institution:</strong> Institution Name</p>
+  <p><strong>Term:</strong> Term (e.g., Summer 2021)</p>
+  <p>Description of teaching experience 3...</p>
+</article>
+<hr>
