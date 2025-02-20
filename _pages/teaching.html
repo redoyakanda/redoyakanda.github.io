@@ -5,8 +5,16 @@ permalink: /teaching/
 author_profile: true
 ---
 
-{% include base_path %}
+{% assign shuffled_teaching = site.teaching | shuffle %}
+{% assign selected_teaching = shuffled_teaching | slice: 0, 3 %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+{% for post in selected_teaching %}
+  <article>
+    <h2>{{ post.title }}</h2>
+    <p><strong>Course:</strong> {{ post.course }}</p>
+    <p><strong>Institution:</strong> {{ post.institution }}</p>
+    <p><strong>Term:</strong> {{ post.term }}</p>
+    <p>{{ post.excerpt }}</p>
+  </article>
+  <hr>
 {% endfor %}
