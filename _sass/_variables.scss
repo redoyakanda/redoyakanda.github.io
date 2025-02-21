@@ -62,8 +62,9 @@ $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
 
-$background-color           : #ffffff !default;  // Ensures full white
-$body-color                 : #ffffff !default;  // Main page background
+$background-color           : #C0C0C0 !default;  // Silver background
+$body-color                 : #C0C0C0 !default;  // Ensure full-page silver background
+
 $code-background-color      : #ffffff !default;  // Lighten code blocks too
 $code-background-color-dark : #fdfdfd !default;  // Make dark mode lighter
 
