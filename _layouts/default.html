@@ -66,6 +66,11 @@ layout: compress
   .recent-news {
     font-size: 14px !important; /* Adjust as needed */
     line-height: 1.4 !important; /* Improve readability */
+    text-align: justify !important;
+    /* Enable vertical scrolling if content overflows */
+    max-height: 600px;
+    overflow-y: auto;
+    padding-right: 10px;
   }
 
   /* Reduce font size for dates (removed gray color) */
@@ -84,13 +89,6 @@ layout: compress
     text-decoration: none !important;
   }
   
-  .recent-news {
-  text-align: justify !important;
-      /* Enable vertical scrolling if content overflows */
-  max-height: 600px;
-  overflow-y: auto;
-  padding-right: 10px;
-}
 
 
   /* Make subtitles black and justified */
