@@ -102,7 +102,63 @@ layout: compress
   .conference-text, .journal-text {
     text-align: justify !important;
   }
-  
+  @media only screen and (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .left-sidebar,
+  .main,
+  .right-sidebar {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 10px !important;
+  }
+
+  .left-sidebar {
+    order: 1;
+  }
+
+  .main {
+    order: 2;
+  }
+
+  .right-sidebar {
+    order: 3;
+  }
+
+  .author__avatar {
+    text-align: center;
+  }
+
+  .author__avatar img {
+    width: 120px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .author__name {
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .author__bio {
+    text-align: center;
+    font-size: 1em;
+  }
+
+  .author__urls-wrapper {
+    text-align: center;
+  }
+
+  .recent-news {
+    max-height: none;
+    overflow-y: visible;
+  }
+}
+
 
 </style>
 
