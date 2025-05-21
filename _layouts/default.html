@@ -103,7 +103,7 @@ layout: compress
     text-align: justify !important;
   }
 
-  @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .wrapper {
     flex-direction: column;
   }
@@ -155,13 +155,21 @@ layout: compress
   }
 
   .recent-news {
-    max-height: none !important;   /* Remove scroll limit on mobile */
+    max-height: none !important;
     overflow-y: visible !important;
-    font-size: 14px !important;     /* Keep consistent with desktop */
+    font-size: 14px !important;
     line-height: 1.4 !important;
     padding-right: 0 !important;
   }
+
+  /* 🛠️ Fix for content being pushed left */
+  .left-sidebar + .main,
+  .main + .right-sidebar {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
 }
+
 
 
 </style>
