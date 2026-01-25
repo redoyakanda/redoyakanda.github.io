@@ -23,7 +23,7 @@ I am pursuing a Ph.D. in Computer Science under the supervision of Prof. Nitesh 
   </p>
 
   <p>
-I began my Ph.D. in Spring 2022, and my broader research interests lie in emerging systems security. My recent work focuses on user-centered and HCI security, particularly accessibility-triggered security issues in digital systems. This includes authentication mechanisms, cookie banners, and device linking and browser syncing workflows for diverse user populations, with the goal of identifying security leakages that disproportionately affect these users and ensuring secure authentication for emerging platforms such as AR/VR devices. 
+I began my Ph.D. in Spring 2022, and my broader research interests lie in emerging systems security. My recent work focuses on user-centered and HCI security, particularly accessibility-triggered security issues in digital systems for diverse user populations, with the goal of identifying security leakages that disproportionately affect these users and propagate to impact the broader user population, while ensuring that such risks are identified and mitigated before they can cause harm. Additionally, my recent work includes investigating the security of AR/VR devices, examining how motion sensor data can enable the reconstruction of sensitive information, including users’ gender, and developing effortless authentication mechanisms for these devices.
       </p>
 
   <p>
