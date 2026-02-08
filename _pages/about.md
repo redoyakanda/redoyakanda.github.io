@@ -27,6 +27,6 @@ I began my Ph.D. in Spring 2022, and my broader research interests lie in emergi
       </p>
 
   <p>
-    I have published several papers in prestigious, top-tier venues, including <b style="color:blue;">ACM CCS</b> (3 papers), <b style="color:blue;">The Web Conference (WWW)</b>, and <b style="color:blue;">USENIX Security</b>, along with publications in respected journals and contributions to book chapters. I also have several projects currently under review at top-tier venues, as well as others in progress, with planned submissions to leading conferences and journals.
+    I have published several papers in prestigious, top-tier venues, including <b style="color:blue;">ACM CCS</b> (three papers), <b style="color:blue;">The Web Conference (WWW)</b>, and <b style="color:blue;">USENIX Security</b>, including a <b style="color:blue;">Distinguished Paper Award</b> at ACM CCS 2025. In addition, I have published in respected journals and contributed to book chapters. I also have several projects currently under review at top-tier venues, as well as others in progress, with planned submissions to leading conferences and journals.
   </p>
 </div>
