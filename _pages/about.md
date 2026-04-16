@@ -19,7 +19,7 @@ redirect_from:
   <p>Howdy!</p>
 
   <p>
-I am pursuing a Ph.D. in Computer Science under the supervision of Prof. Nitesh Saxena at <a href="https://spies.engr.tamu.edu/" target="_blank">SPIES Lab</a>, Department of Computer Science and Engineering, Texas A&M University, College Station, Texas, USA.
+I am a Ph.D. candidate in Computer Science under the supervision of Prof. Nitesh Saxena at the <a href="https://spies.engr.tamu.edu/" target="_blank">SPIES Lab</a>, Department of Computer Science and Engineering, Texas A&M University, College Station, Texas, USA.
   </p>
 
   <p>
