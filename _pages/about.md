@@ -19,7 +19,9 @@ redirect_from:
   <p>Howdy!</p>
 
   <p>
-I am a Ph.D. candidate in Computer Science under the supervision of Prof. Nitesh Saxena at the <a href="https://spies.engr.tamu.edu/" target="_blank">SPIES Lab</a>, Department of Computer Science and Engineering, Texas A&M University, College Station, Texas, USA.
+Howdy!
+
+I am a Ph.D. candidate in Computer Science and a Mobil Aggies Future Faculty Fellow (F3) at Texas A&M University, under the supervision of Prof. Nitesh Saxena at the <a href="https://spies.engr.tamu.edu/" target="_blank">SPIES Lab</a>.
   </p>
 
   <p>
