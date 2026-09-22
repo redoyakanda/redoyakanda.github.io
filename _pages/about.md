@@ -20,7 +20,7 @@ redirect_from:
 
   <p>
 
-I am a Ph.D. candidate in Computer Science and a Mobil Aggies Future Faculty Fellow (F3) at Texas A&M University, under the supervision of Prof. Nitesh Saxena at the <a href="https://spies.engr.tamu.edu/" target="_blank">SPIES Lab</a>.
+I am a Ph.D. candidate in Computer Science and a <a href="https://grad.tamu.edu/aggie-life/news/2026/9/five-doctoral-candidates-named-2026-2027-mobil-aggies-future-faculty-fellows.html" target="_blank"><b>Mobil Aggies Future Faculty Fellow (F3)</b></a> at Texas A&M University, under the supervision of Prof. Nitesh Saxena at the <a href="https://spies.engr.tamu.edu/" target="_blank">SPIES Lab</a>.
   </p>
 
   <p>
