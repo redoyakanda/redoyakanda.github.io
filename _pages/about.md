@@ -13,7 +13,7 @@ redirect_from:
   .content {
     color: black;
   }
-  .job-market-notice {
+.job-market-notice {
   background-color: #f7edf1;
   border-left: 4px solid #812344;
   border-radius: 4px;
@@ -22,12 +22,12 @@ redirect_from:
   line-height: 1.6;
   color: #23151b;
   font-size: 1em;
-  font-weight: 600;
+  font-weight: 700;
 }
 </style>
 
   <div class="job-market-notice">
-  <strong>📢 Announcement:</strong> I am on the 2026–2027 academic job market, seeking tenure-track faculty positions. If you know of a position that might be a good fit, I would be delighted to hear from you!
+  <strong style="color: blue;">📢 Announcement:</strong> I am on the 2026–2027 academic job market, seeking tenure-track faculty positions. If you know of a position that might be a good fit, I would be delighted to hear from you!
 </div>
 
 <div class="content">
