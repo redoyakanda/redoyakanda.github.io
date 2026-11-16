@@ -14,14 +14,16 @@ redirect_from:
     color: black;
   }
   .job-market-notice {
-    background-color: #f7edf1;
-    border-left: 4px solid #812344;
-    border-radius: 4px;
-    padding: 16px 18px;
-    margin-bottom: 24px;
-    line-height: 1.55;
-    color: #23151b;
-  }
+  background-color: #f7edf1;
+  border-left: 4px solid #812344;
+  border-radius: 4px;
+  padding: 16px 18px;
+  margin-bottom: 24px;
+  line-height: 1.6;
+  color: #23151b;
+  font-size: 1em;
+  font-weight: 600;
+}
 </style>
 
   <div class="job-market-notice">
