@@ -27,8 +27,8 @@ redirect_from:
 </style>
 
   <div class="job-market-notice">
-    I am on the 2026–2027 academic job market, seeking tenure-track faculty positions. If you know of a position that might be a good fit, I’d love to hear from you!
-  </div>
+  <strong>📢 Announcement:</strong> I am on the 2026–2027 academic job market, seeking tenure-track faculty positions. If you know of a position that might be a good fit, I would be delighted to hear from you!
+</div>
 
 <div class="content">
   <p>Howdy!</p>
