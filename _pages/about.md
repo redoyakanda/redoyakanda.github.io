@@ -13,7 +13,20 @@ redirect_from:
   .content {
     color: black;
   }
+  .job-market-notice {
+    background-color: #f7edf1;
+    border-left: 4px solid #812344;
+    border-radius: 4px;
+    padding: 16px 18px;
+    margin-bottom: 24px;
+    line-height: 1.55;
+    color: #23151b;
+  }
 </style>
+
+  <div class="job-market-notice">
+    I am on the 2026–2027 academic job market, seeking tenure-track faculty positions. If you know of a position that might be a good fit, I’d love to hear from you!
+  </div>
 
 <div class="content">
   <p>Howdy!</p>
